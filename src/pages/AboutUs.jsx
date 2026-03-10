@@ -169,7 +169,7 @@ function AboutUs() {
           className="mb-12"
         >
           <img
-            src="/images/foto11.jpg"
+            src="/images/foto11.JPG"
             alt="UKM Seni Musik UAD"
             className="w-full h-[400px] object-cover rounded-xl shadow-lg"
           />
