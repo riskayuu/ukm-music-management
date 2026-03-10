@@ -59,34 +59,34 @@ function AboutUs() {
   );
 
   const images = [
-    { src: "./images/foto 1.JPG", title: "Band Performance" },
-    { src: "/images/foto 2.jpg", title: "Band Performance" },
-    { src: "/images/foto 3.jpg", title: "Band Performance" },
-    { src: "/images/foto 4.jpg", title: "Practice Session" },
-    { src: "/images/foto 5.jpg", title: "Band Performance" },
-    { src: "/images/foto 6.jpg", title: "Band Performance" },
-    { src: "/images/foto 7.jpg", title: "Band Performance" },
-    { src: "/images/foto 8.jpg", title: "Band Performance" },
-    { src: "/images/foto 9.jpg", title: "Community Gathering" },
-    { src: "/images/foto 10.jpg", title: "Community Gathering" },
-    { src: "/images/foto 11.jpg", title: "Community Gathering" },
-    { src: "/images/foto 12.jpg", title: "Community Gathering" },
-    { src: "/images/foto 13.jpg", title: "Community Gathering" },
-    { src: "/images/foto 14.jpg", title: "Community Gathering" },
-    { src: "/images/foto 15.jpg", title: "Band Performance" },
-    { src: "/images/foto 16.jpg", title: "Community Gathering" },
-    { src: "/images/foto 17.jpg", title: "Community Gathering" },
-    { src: "/images/foto 18.jpg", title: "Band Performance" },
-    { src: "/images/foto 22.jpg", title: "Community Gathering" },
-    { src: "/images/foto 23.jpg", title: "Community Gathering" },
-    { src: "/images/foto 24.jpg", title: "Community Gathering" },
-    { src: "/images/foto 25.jpg", title: "Community Gathering" },
-    { src: "/images/foto 26.jpg", title: "Band Performance" },
-    { src: "/images/foto 27.jpg", title: "Community Gathering" },
-    { src: "/images/foto 28.jpg", title: "Community Gathering" },
-    { src: "/images/foto 29.jpg", title: "Community Gathering" },
-    { src: "/images/foto 30.jpg", title: "Band Performance" },
-    { src: "/images/foto 31.jpg", title: "Band Performance" },
+    { src: "/images/foto1.JPG", title: "Band Performance" },
+    { src: "/images/foto2.jpg", title: "Band Performance" },
+    { src: "/images/foto3.jpg", title: "Band Performance" },
+    { src: "/images/foto4.jpg", title: "Practice Session" },
+    { src: "/images/foto5.jpg", title: "Band Performance" },
+    { src: "/images/foto6.jpg", title: "Band Performance" },
+    { src: "/images/foto7.jpg", title: "Band Performance" },
+    { src: "/images/foto8.jpg", title: "Band Performance" },
+    { src: "/images/foto9.jpg", title: "Community Gathering" },
+    { src: "/images/foto10.jpg", title: "Community Gathering" },
+    { src: "/images/foto11.jpg", title: "Community Gathering" },
+    { src: "/images/foto12.jpg", title: "Community Gathering" },
+    { src: "/images/foto13.jpg", title: "Community Gathering" },
+    { src: "/images/foto14.jpg", title: "Community Gathering" },
+    { src: "/images/foto15.jpg", title: "Band Performance" },
+    { src: "/images/foto16.jpg", title: "Community Gathering" },
+    { src: "/images/foto17.jpg", title: "Community Gathering" },
+    { src: "/images/foto18.jpg", title: "Band Performance" },
+    { src: "/images/foto22.jpg", title: "Community Gathering" },
+    { src: "/images/foto23.jpg", title: "Community Gathering" },
+    { src: "/images/foto24.jpg", title: "Community Gathering" },
+    { src: "/images/foto25.jpg", title: "Community Gathering" },
+    { src: "/images/foto26.jpg", title: "Band Performance" },
+    { src: "/images/foto27.jpg", title: "Community Gathering" },
+    { src: "/images/foto28.jpg", title: "Community Gathering" },
+    { src: "/images/foto29.jpg", title: "Community Gathering" },
+    { src: "/images/foto30.jpg", title: "Band Performance" },
+    { src: "/images/foto31.jpg", title: "Band Performance" },
     // Add more images as needed
   ];
 
@@ -169,7 +169,7 @@ function AboutUs() {
           className="mb-12"
         >
           <img
-            src="/images/foto 11.jpg"
+            src="/images/foto11.jpg"
             alt="UKM Seni Musik UAD"
             className="w-full h-[400px] object-cover rounded-xl shadow-lg"
           />

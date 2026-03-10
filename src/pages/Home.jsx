@@ -49,7 +49,7 @@ function Home() {
     },
   ];
 
-  const fotoKegiatan = ["/preview 1.jpg", "/preview 2.jpg", "/preview 3.jpg"];
+  const fotoKegiatan = ["/preview1.jpg", "/preview2.jpg", "/preview3.jpg"];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-100">
