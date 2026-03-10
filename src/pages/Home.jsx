@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Kegiatan from "./Kegiatan";
 import { Link, useNavigate } from "react-router-dom";
 import { db } from "../Firebase";
 import { collection, getDocs } from "firebase/firestore";
 import { motion } from "framer-motion";
 
 function Home() {
-  const [kegiatanMendatang, setKegiatanMendatang] = useState([]);
   const [anggotaBaru, setAnggotaBaru] = useState(0);
   const [totalAnggota, setTotalAnggota] = useState(0);
   const navigate = useNavigate();
@@ -34,20 +32,6 @@ function Home() {
 
     fetchAnggotaList();
     fetchNewMembers();
-  }, []);
-
-  useEffect(() => {
-    const fetchKegiatanMendatang = async () => {
-      try {
-        const querySnapshot = await getDocs(collection(db, "kegiatanMendatang"));
-        const data = querySnapshot.docs.map((doc) => doc.data());
-        setKegiatanMendatang(data);
-      } catch (error) {
-        console.error("Error fetching kegiatanMendatang:", error);
-      }
-    };
-
-    fetchKegiatanMendatang();
   }, []);
 
   const testimoni = [
